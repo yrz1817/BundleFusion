@@ -1,0 +1,1420 @@
+﻿  Compiling CUDA source file Source\CUDACache.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDAImageHelper.cu...
+  Compiling CUDA source file Source\CUDAImageUtil.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDAConstant.cu...
+  Compiling CUDA source file Source\SiftGPU\SIFTImageManager.cu...
+  Compiling CUDA source file Source\Solver\SolverBundling.cu...
+  Compiling CUDA source file Source\DepthSensing\ScanCS.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDAHistogramHashSDF.cu...
+  Compiling CUDA source file Source\OnlineBundler.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDAMarchingCubesSDF.cu...
+  Compiling CUDA source file Source\DepthSensing\CameraUtil.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDARayCastSDF.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDASceneRepChunkGrid.cu...
+  Compiling CUDA source file Source\DepthSensing\CUDASceneRepHashSDF.cu...
+  Compiling CUDA source file Source\SiftGPU\ProgramCU.cu...
+  Compiling CUDA source file Source\SBA.cu...
+  Compiling CUDA source file Source\SiftGPU\CUDASiftConstant.cu...
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDACache.cu.obj "D:\BundleFusion\FriedLiver\Source\CUDACache.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\ScanCS.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\ScanCS.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAMarchingCubesSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAMarchingCubesSDF.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=0 --ptxas-options=-v  --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SolverBundling.cu.obj "D:\BundleFusion\FriedLiver\Source\Solver\SolverBundling.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAImageHelper.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAImageHelper.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAConstant.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAConstant.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SIFTImageManager.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\SIFTImageManager.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASceneRepChunkGrid.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepChunkGrid.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASceneRepHashSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu" 
+  
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\ProgramCU.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu" 
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAHistogramHashSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAHistogramHashSDF.cu" 
+  
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASiftConstant.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\CUDASiftConstant.cu" 
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDARayCastSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\OnlineBundler.cu.obj "D:\BundleFusion\FriedLiver\Source\OnlineBundler.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SBA.cu.obj "D:\BundleFusion\FriedLiver\Source\SBA.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAImageUtil.cu.obj "D:\BundleFusion\FriedLiver\Source\CUDAImageUtil.cu" 
+  
+  D:\BundleFusion\FriedLiver>"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CameraUtil.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CameraUtil.cu" 
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+  OnlineBundler.cu
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+../external/mlib/include\core-base/common.h(61): fatal error C1083: 无法打开包括文件: “boost/serialization/array_wrapper.hpp”: No such file or directory
+  CUDAImageUtil.cu
+  SolverBundling.cu
+  SBA.cu
+  CUDACache.cu
+  SIFTImageManager.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\OnlineBundler.cu.obj "D:\BundleFusion\FriedLiver\Source\OnlineBundler.cu"”已退出，返回代码为 2。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAImageUtil.cu.obj "D:\BundleFusion\FriedLiver\Source\CUDAImageUtil.cu"”已退出，返回代码为 2。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=0 --ptxas-options=-v  --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SolverBundling.cu.obj "D:\BundleFusion\FriedLiver\Source\Solver\SolverBundling.cu"”已退出，返回代码为 2。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SBA.cu.obj "D:\BundleFusion\FriedLiver\Source\SBA.cu"”已退出，返回代码为 2。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\SIFTImageManager.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\SIFTImageManager.cu"”已退出，返回代码为 2。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDACache.cu.obj "D:\BundleFusion\FriedLiver\Source\CUDACache.cu"”已退出，返回代码为 2。
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(119): error : texture is not a template
+    texture<float, 1, cudaReadModeElementType> texData;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(120): error : texture is not a template
+    texture<unsigned char, 1, cudaReadModeNormalizedFloat> texDataB;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(121): error : texture is not a template
+    texture<float2, 2, cudaReadModeElementType> texDataF2;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(122): error : texture is not a template
+    texture<float4, 1, cudaReadModeElementType> texDataF4;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(123): error : texture is not a template
+    texture<int4, 1, cudaReadModeElementType> texDataI4;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(124): error : texture is not a template
+    texture<int4, 1, cudaReadModeElementType> texDataList;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(179): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    			data[cache_index] = tex1Dfetch(texData, fetch_index);
+    			                    ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu(14): error : texture is not a template
+    texture<float, 0x02, cudaReadModeElementType> rayMinTextureRef;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu(15): error : texture is not a template
+    texture<float, 0x02, cudaReadModeElementType> rayMaxTextureRef;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(237): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    				data[cache_index + i * 32] = tex1Dfetch(texData, fetch_index);
+    				                             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(281): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v11 = tex1Dfetch(texData, index);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu(35): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const unsigned int, const unsigned int)
+    		float minInterval = tex2D(rayMinTextureRef, x, y);
+    		                    ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(282): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v12 = tex1Dfetch(texData, index + 1);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu(36): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const unsigned int, const unsigned int)
+    		float maxInterval = tex2D(rayMaxTextureRef, x, y);
+    		                    ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(284): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+              argument types are: (<error-type>, int)
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+    		float v21 = tex1Dfetch(texData, index);
+                                     ^
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                    ^
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+  
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu(66): error : identifier "cudaBindTextureToArray" is undefined
+    	cudaBindTextureToArray(rayMinTextureRef, rayCastData.d_rayIntervalSplatMinArray, channelDesc);
+    	^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(285): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v22 = tex1Dfetch(texData, index + 1);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(12): error : texture is not a template
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+    texture<float, 0x02, cudaReadModeElementType> depthTextureRef;
+  
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(13): error : texture is not a template
+    texture<uchar4, 0x02, cudaReadModeElementType> colorTextureRef;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(20): error : identifier "cudaBindTexture2D" is undefined
+  5 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDARayCastSDF.cu".
+    	__cudaSafeCall (cudaBindTexture2D(0, depthTextureRef, depthCameraData.d_depthData, depthTextureRef.channelDesc, width, height, sizeof(float)*width), "D:\\BundleFusion\\FriedLiver\\Source\\DepthSensing\\CUDASceneRepHashSDF.cu", 20);
+    	                ^
+  
+  CUDARayCastSDF.cu
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(300): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v1 = tex1Dfetch(texData, index);
+    		           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDARayCastSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDARayCastSDF.cu"”已退出，返回代码为 2。
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(176): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const unsigned int, const unsigned int)
+    		float d = tex2D(depthTextureRef, x, y);
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(301): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v2 = tex1Dfetch(texData, index + 1);
+    		           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(339): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, const int)
+    	d_result[dst_idx] = tex1Dfetch(texData, src_idx);
+    	                    ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(402): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const int, const int)
+    	if (p00.x >= 0 && p00.x < imageWidth && p00.y >= 0 && p00.y < imageHeight) { uchar4 v00_uc = tex2D(colorTextureRef, p00.x, p00.y); float4 v00 = make_float4(v00_uc.x, v00_uc.y, v00_uc.z, v00_uc.w);	if (v00.x != __int_as_float(0xff800000)) { s0 += (1.0f - alpha)*v00; w0 += (1.0f - alpha); } }
+    	                                                                                             ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(352): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, const int)
+    	d_result[dst_idx] = tex1Dfetch(texData, src_idx);
+    	                    ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(375): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	d_result[index] = tex1Dfetch(texData, index * 4);
+    	                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(403): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const int, const int)
+    	if (p10.x >= 0 && p10.x < imageWidth && p10.y >= 0 && p10.y < imageHeight) { uchar4 v10_uc = tex2D(colorTextureRef, p10.x, p10.y); float4 v10 = make_float4(v10_uc.x, v10_uc.y, v10_uc.z, v10_uc.w);    if (v10.x != __int_as_float(0xff800000)) { s0 += alpha *v10; w0 += alpha; } }
+    	                                                                                             ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(381): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	float4 rgba = tex1Dfetch(texDataF4, index);
+    	              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(406): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	d_result[index] = tex1Dfetch(texDataB, index);
+    	                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(406): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const int, const int)
+    	if (p01.x >= 0 && p01.x < imageWidth && p01.y >= 0 && p01.y < imageHeight) { uchar4 v01_uc = tex2D(colorTextureRef, p01.x, p01.y); float4 v01 = make_float4(v01_uc.x, v01_uc.y, v01_uc.z, v01_uc.w);    if (v01.x != __int_as_float(0xff800000)) { s1 += (1.0f - alpha)*v01; w1 += (1.0f - alpha); } }
+    	                                                                                             ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(546): error : texture is not a template
+    texture<float, 1, cudaReadModeElementType> texC;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(547): error : texture is not a template
+    texture<float, 1, cudaReadModeElementType> texP;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(548): error : texture is not a template
+    texture<float, 1, cudaReadModeElementType> texN;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(557): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vp = tex1Dfetch(texP, index);
+    		           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(407): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, const int, const int)
+    	if (p11.x >= 0 && p11.x < imageWidth && p11.y >= 0 && p11.y < imageHeight) { uchar4 v11_uc = tex2D(colorTextureRef, p11.x, p11.y); float4 v11 = make_float4(v11_uc.x, v11_uc.y, v11_uc.z, v11_uc.w);    if (v11.x != __int_as_float(0xff800000)) { s1 += alpha *v11; w1 += alpha; } }
+    	                                                                                             ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(558): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v = tex1Dfetch(texC, index);
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(560): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vxn = tex1Dfetch(texC, index + 1);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(440): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, unsigned int, unsigned int)
+    		float depth = tex2D(depthTextureRef, screenPos.x, screenPos.y);
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(561): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vxp = tex1Dfetch(texC, index - 1);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(562): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vyp = tex1Dfetch(texC, index - width);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu(443): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, unsigned int, unsigned int)
+    			uchar4 color_uc = tex2D(colorTextureRef, screenPos.x, screenPos.y);
+    			                  ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(563): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vyn = tex1Dfetch(texC, index + width);
+    		            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(578): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float vp = tex1Dfetch(texP, index);
+    		           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+  10 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDASceneRepHashSDF.cu".
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(579): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v = tex1Dfetch(texC, index);
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+  CUDASceneRepHashSDF.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASceneRepHashSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepHashSDF.cu"”已退出，返回代码为 2。
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(654): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[1][1] = v = tex1Dfetch(texC, idx[1]);
+    		                 ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(657): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[1][0] = tex1Dfetch(texC, idx[1] - 1); 
+    		             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(658): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[1][2] = tex1Dfetch(texC, idx[1] + 1); 
+    		             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(663): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[0][0] = tex1Dfetch(texC, idx[0] - 1); data[0][1] = tex1Dfetch(texC, idx[0]); data[0][2] = tex1Dfetch(texC, idx[0] + 1); if(v > nmax) { nmax = max(nmax, data[0][0]); nmax = max(nmax, data[0][1]); nmax = max(nmax, data[0][2]); if(v < nmax) return; }else { nmin = min(nmin, data[0][0]); nmin = min(nmin, data[0][1]); nmin = min(nmin, data[0][2]); if(v > nmin) return; }; 
+    		             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(663): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[0][0] = tex1Dfetch(texC, idx[0] - 1); data[0][1] = tex1Dfetch(texC, idx[0]); data[0][2] = tex1Dfetch(texC, idx[0] + 1); if(v > nmax) { nmax = max(nmax, data[0][0]); nmax = max(nmax, data[0][1]); nmax = max(nmax, data[0][2]); if(v < nmax) return; }else { nmin = min(nmin, data[0][0]); nmin = min(nmin, data[0][1]); nmin = min(nmin, data[0][2]); if(v > nmin) return; }; 
+    		                                                        ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(663): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[0][0] = tex1Dfetch(texC, idx[0] - 1); data[0][1] = tex1Dfetch(texC, idx[0]); data[0][2] = tex1Dfetch(texC, idx[0] + 1); if(v > nmax) { nmax = max(nmax, data[0][0]); nmax = max(nmax, data[0][1]); nmax = max(nmax, data[0][2]); if(v < nmax) return; }else { nmin = min(nmin, data[0][0]); nmin = min(nmin, data[0][1]); nmin = min(nmin, data[0][2]); if(v > nmin) return; }; 
+    		                                                                                               ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(664): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[2][0] = tex1Dfetch(texC, idx[2] - 1); data[2][1] = tex1Dfetch(texC, idx[2]); data[2][2] = tex1Dfetch(texC, idx[2] + 1); if(v > nmax) { nmax = max(nmax, data[2][0]); nmax = max(nmax, data[2][1]); nmax = max(nmax, data[2][2]); if(v < nmax) return; }else { nmin = min(nmin, data[2][0]); nmin = min(nmin, data[2][1]); nmin = min(nmin, data[2][2]); if(v > nmin) return; }; 
+    		             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(664): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[2][0] = tex1Dfetch(texC, idx[2] - 1); data[2][1] = tex1Dfetch(texC, idx[2]); data[2][2] = tex1Dfetch(texC, idx[2] + 1); if(v > nmax) { nmax = max(nmax, data[2][0]); nmax = max(nmax, data[2][1]); nmax = max(nmax, data[2][2]); if(v < nmax) return; }else { nmin = min(nmin, data[2][0]); nmin = min(nmin, data[2][1]); nmin = min(nmin, data[2][2]); if(v > nmin) return; }; 
+    		                                                        ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(664): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		data[2][0] = tex1Dfetch(texC, idx[2] - 1); data[2][1] = tex1Dfetch(texC, idx[2]); data[2][2] = tex1Dfetch(texC, idx[2] + 1); if(v > nmax) { nmax = max(nmax, data[2][0]); nmax = max(nmax, data[2][1]); nmax = max(nmax, data[2][2]); if(v < nmax) return; }else { nmin = min(nmin, data[2][0]); nmin = min(nmin, data[2][1]); nmin = min(nmin, data[2][2]); if(v > nmin) return; }; 
+    		                                                                                               ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(677): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[0][0] = tex1Dfetch(texP, idx[0] - 1); datap[0][1] = tex1Dfetch(texP, idx[0]); datap[0][2] = tex1Dfetch(texP, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datap[0][0]); nmax = max(nmax, datap[0][1]); nmax = max(nmax, datap[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[0][0]); nmin = min(nmin, datap[0][1]); nmin = min(nmin, datap[0][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(677): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[0][0] = tex1Dfetch(texP, idx[0] - 1); datap[0][1] = tex1Dfetch(texP, idx[0]); datap[0][2] = tex1Dfetch(texP, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datap[0][0]); nmax = max(nmax, datap[0][1]); nmax = max(nmax, datap[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[0][0]); nmin = min(nmin, datap[0][1]); nmin = min(nmin, datap[0][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(677): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[0][0] = tex1Dfetch(texP, idx[0] - 1); datap[0][1] = tex1Dfetch(texP, idx[0]); datap[0][2] = tex1Dfetch(texP, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datap[0][0]); nmax = max(nmax, datap[0][1]); nmax = max(nmax, datap[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[0][0]); nmin = min(nmin, datap[0][1]); nmin = min(nmin, datap[0][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(678): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[1][0] = tex1Dfetch(texP, idx[1] - 1); datap[1][1] = tex1Dfetch(texP, idx[1]); datap[1][2] = tex1Dfetch(texP, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datap[1][0]); nmax = max(nmax, datap[1][1]); nmax = max(nmax, datap[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[1][0]); nmin = min(nmin, datap[1][1]); nmin = min(nmin, datap[1][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(678): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[1][0] = tex1Dfetch(texP, idx[1] - 1); datap[1][1] = tex1Dfetch(texP, idx[1]); datap[1][2] = tex1Dfetch(texP, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datap[1][0]); nmax = max(nmax, datap[1][1]); nmax = max(nmax, datap[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[1][0]); nmin = min(nmin, datap[1][1]); nmin = min(nmin, datap[1][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(678): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[1][0] = tex1Dfetch(texP, idx[1] - 1); datap[1][1] = tex1Dfetch(texP, idx[1]); datap[1][2] = tex1Dfetch(texP, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datap[1][0]); nmax = max(nmax, datap[1][1]); nmax = max(nmax, datap[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[1][0]); nmin = min(nmin, datap[1][1]); nmin = min(nmin, datap[1][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(679): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[2][0] = tex1Dfetch(texP, idx[2] - 1); datap[2][1] = tex1Dfetch(texP, idx[2]); datap[2][2] = tex1Dfetch(texP, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datap[2][0]); nmax = max(nmax, datap[2][1]); nmax = max(nmax, datap[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[2][0]); nmin = min(nmin, datap[2][1]); nmin = min(nmin, datap[2][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(679): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[2][0] = tex1Dfetch(texP, idx[2] - 1); datap[2][1] = tex1Dfetch(texP, idx[2]); datap[2][2] = tex1Dfetch(texP, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datap[2][0]); nmax = max(nmax, datap[2][1]); nmax = max(nmax, datap[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[2][0]); nmin = min(nmin, datap[2][1]); nmin = min(nmin, datap[2][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(679): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datap[2][0] = tex1Dfetch(texP, idx[2] - 1); datap[2][1] = tex1Dfetch(texP, idx[2]); datap[2][2] = tex1Dfetch(texP, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datap[2][0]); nmax = max(nmax, datap[2][1]); nmax = max(nmax, datap[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datap[2][0]); nmin = min(nmin, datap[2][1]); nmin = min(nmin, datap[2][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(683): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[0][0] = tex1Dfetch(texN, idx[0] - 1); datan[0][1] = tex1Dfetch(texN, idx[0]); datan[0][2] = tex1Dfetch(texN, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datan[0][0]); nmax = max(nmax, datan[0][1]); nmax = max(nmax, datan[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[0][0]); nmin = min(nmin, datan[0][1]); nmin = min(nmin, datan[0][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(683): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[0][0] = tex1Dfetch(texN, idx[0] - 1); datan[0][1] = tex1Dfetch(texN, idx[0]); datan[0][2] = tex1Dfetch(texN, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datan[0][0]); nmax = max(nmax, datan[0][1]); nmax = max(nmax, datan[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[0][0]); nmin = min(nmin, datan[0][1]); nmin = min(nmin, datan[0][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(683): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+              argument types are: (<error-type>, int)
+    		datan[0][0] = tex1Dfetch(texN, idx[0] - 1); datan[0][1] = tex1Dfetch(texN, idx[0]); datan[0][2] = tex1Dfetch(texN, idx[0] + 1); if(v > nmax) { nmax = max(nmax, datan[0][0]); nmax = max(nmax, datan[0][1]); nmax = max(nmax, datan[0][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[0][0]); nmin = min(nmin, datan[0][1]); nmin = min(nmin, datan[0][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(684): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[1][0] = tex1Dfetch(texN, idx[1] - 1); datan[1][1] = tex1Dfetch(texN, idx[1]); datan[1][2] = tex1Dfetch(texN, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datan[1][0]); nmax = max(nmax, datan[1][1]); nmax = max(nmax, datan[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[1][0]); nmin = min(nmin, datan[1][1]); nmin = min(nmin, datan[1][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(684): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[1][0] = tex1Dfetch(texN, idx[1] - 1); datan[1][1] = tex1Dfetch(texN, idx[1]); datan[1][2] = tex1Dfetch(texN, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datan[1][0]); nmax = max(nmax, datan[1][1]); nmax = max(nmax, datan[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[1][0]); nmin = min(nmin, datan[1][1]); nmin = min(nmin, datan[1][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(684): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[1][0] = tex1Dfetch(texN, idx[1] - 1); datan[1][1] = tex1Dfetch(texN, idx[1]); datan[1][2] = tex1Dfetch(texN, idx[1] + 1); if(v > nmax) { nmax = max(nmax, datan[1][0]); nmax = max(nmax, datan[1][1]); nmax = max(nmax, datan[1][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[1][0]); nmin = min(nmin, datan[1][1]); nmin = min(nmin, datan[1][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(685): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[2][0] = tex1Dfetch(texN, idx[2] - 1); datan[2][1] = tex1Dfetch(texN, idx[2]); datan[2][2] = tex1Dfetch(texN, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datan[2][0]); nmax = max(nmax, datan[2][1]); nmax = max(nmax, datan[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[2][0]); nmin = min(nmin, datan[2][1]); nmin = min(nmin, datan[2][2]); if(v > nmin) return; };
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(685): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[2][0] = tex1Dfetch(texN, idx[2] - 1); datan[2][1] = tex1Dfetch(texN, idx[2]); datan[2][2] = tex1Dfetch(texN, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datan[2][0]); nmax = max(nmax, datan[2][1]); nmax = max(nmax, datan[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[2][0]); nmin = min(nmin, datan[2][1]); nmin = min(nmin, datan[2][2]); if(v > nmin) return; };
+    		                                                          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(685): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		datan[2][0] = tex1Dfetch(texN, idx[2] - 1); datan[2][1] = tex1Dfetch(texN, idx[2]); datan[2][2] = tex1Dfetch(texN, idx[2] + 1); if(v > nmax) { nmax = max(nmax, datan[2][0]); nmax = max(nmax, datan[2][1]); nmax = max(nmax, datan[2][2]); if(v < nmax) return; }else { nmin = min(nmin, datan[2][0]); nmin = min(nmin, datan[2][1]); nmin = min(nmin, datan[2][2]); if(v > nmin) return; };
+    		                                                                                                  ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/cuda/include\cuda.h(22958): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(799): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    				float4 temp = tex1Dfetch(texDataF4, sidx + i);
+    				              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(835): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    			int4 temp = tex1Dfetch(texDataI4, sidx + i);
+    			            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(860): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	int4 pos = tex1Dfetch(texDataList, idx1);
+    	           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(862): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	int4 temp = tex1Dfetch(texDataI4, idx2);
+    	            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(921): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	int4 ikey = tex1Dfetch(texDataList, idx);
+    	            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(927): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float4 offset = tex1Dfetch(texDataF4, __mul24(width,ikey.y) + ikey.x);
+    		                ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(966): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, float, float)
+    				float2 got = tex2D(texDataF2, x, y);
+    				             ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1186): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	float4 key = tex1Dfetch(texDataF4, ftidx);
+    	             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1230): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, float, float)
+    				float2 cc = tex2D(texDataF2, x, y);
+    				            ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1267): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	float4 key = tex1Dfetch(texDataF4, fidx);
+    	             ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1292): error : no instance of overloaded function "tex2D" matches the argument list
+              argument types are: (<error-type>, float, float)
+    				float2 cc = tex2D(texDataF2, x, y);
+    				            ^
+  D:\cuda\include\texture_indirect_functions.h(163): note #3322-D: number of parameters of function template "tex2D<T>(cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y, bool* isResident)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(154): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float, bool *)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y, 
+                                                                    ^
+  D:\cuda\include\texture_indirect_functions.h(145): note #3327-D: candidate function template "tex2D<T>(cudaTextureObject_t, float, float)" failed deduction
+    static __declspec(__device__)  T tex2D(cudaTextureObject_t texObject, float x, float y)
+                                     ^
+  D:\cuda\include\texture_indirect_functions.h(139): note #3322-D: number of parameters of function template "tex2D(T *, cudaTextureObject_t, float, float)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex2D(T *ptr, cudaTextureObject_t obj, float x, float y)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1449): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v = tex1Dfetch(texData, index);
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1451): error : identifier "saturate" is undefined
+    			0.5 : saturate(0.5 + 20.0*v);
+    			      ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1473): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v = tex1Dfetch(texData, index << 1);
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1475): error : identifier "saturate" is undefined
+    			0 : saturate(5 * v);
+    			    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1500): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float4 keyv = tex1Dfetch(texDataF4, index);
+    		              ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1503): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    		float v = inside ? saturate(0.5 + 20 * tex1Dfetch(texData, index)) : 0.5;
+    		                                       ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1503): error : identifier "saturate" is undefined
+    		float v = inside ? saturate(0.5 + 20 * tex1Dfetch(texData, index)) : 0.5;
+    		                   ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1525): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	float4 v = tex1Dfetch(texDataF4, idx);
+    	           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1545): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    	float4 v = tex1Dfetch(texDataF4, kidx);
+    	           ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1571): error : incomplete type "textureReference" is not allowed
+    	__cudaSafeCall (cudaBindTexture(offset, &texRef, _cuData, &texRef.channelDesc, _numBytes), "D:\\BundleFusion\\FriedLiver\\Source\\SiftGPU\\ProgramCU.cu", 1571);
+    	                                                           ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1571): error : identifier "cudaBindTexture" is undefined
+    	__cudaSafeCall (cudaBindTexture(offset, &texRef, _cuData, &texRef.channelDesc, _numBytes), "D:\\BundleFusion\\FriedLiver\\Source\\SiftGPU\\ProgramCU.cu", 1571);
+    	                ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1577): error : incomplete type "textureReference" is not allowed
+    	cudaBindTexture2D(0, &texRef, _cuData, &texRef.channelDesc, _imgWidth, _imgHeight, _imgWidth* _numChannel* sizeof(float));
+    	                                        ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1577): error : identifier "cudaBindTexture2D" is undefined
+    	cudaBindTexture2D(0, &texRef, _cuData, &texRef.channelDesc, _imgWidth, _imgHeight, _imgWidth* _numChannel* sizeof(float));
+    	^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1631): error : texture is not a template
+    texture<uint4, 1, cudaReadModeElementType> texDes1;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1632): error : texture is not a template
+    texture<uint4, 1, cudaReadModeElementType> texDes2;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1659): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, unsigned long long)
+    		sharedFeatures[cache_idx1 / 4] = tex1Dfetch(texDes1, read_idx1 + offset1 / sizeof(uint4));
+    		                                 ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1680): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, unsigned long long)
+    		uint4 v = tex1Dfetch(texDes2, read_idx2 + i + offset2 / sizeof(uint4));
+    		          ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1759): error : texture is not a template
+    texture<float, 1, cudaReadModeElementType> texLoc1;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1760): error : texture is not a template
+    texture<float2, 1, cudaReadModeElementType> texLoc2;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1767): error : texture is not a template
+    texture<int, 1, cudaReadModeElementType> texDOT;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1796): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, unsigned int)
+    			int v = tex1Dfetch(texDOT, base_address + threadIdx.x + i);
+    			        ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1850): error : texture is not a template
+    texture<int4, 1, cudaReadModeElementType> texCT;
+    ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu(1863): error : no instance of overloaded function "tex1Dfetch" matches the argument list
+              argument types are: (<error-type>, int)
+    			int4 temp = tex1Dfetch(texCT, baseIdx + i*num2);
+    			            ^
+  D:\cuda\include\texture_indirect_functions.h(115): note #3327-D: candidate function template "tex1Dfetch<T>(cudaTextureObject_t, int)" failed deduction
+    static __declspec(__device__) T tex1Dfetch(cudaTextureObject_t texObject, int x)
+                                    ^
+  D:\cuda\include\texture_indirect_functions.h(109): note #3322-D: number of parameters of function template "tex1Dfetch(T *, cudaTextureObject_t, int)" does not match the call
+    static __declspec(__device__) typename __nv_itex_trait<T>::type tex1Dfetch(T *ptr, cudaTextureObject_t obj, int x)
+                                                                    ^
+  
+  91 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/SiftGPU/ProgramCU.cu".
+  ProgramCU.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\ProgramCU.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\ProgramCU.cu"”已退出，返回代码为 2。
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val += __shfl_down(val, offset);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+    		val = max(val, __shfl_down(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+    		val = min(val, __shfl_down(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		val += __shfl_down(val, offset);
+    		               ^
+  
+    		       ^
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+  
+    			entries[12], entries[13], entries[14], entries[15]);
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+    			^
+    		val = max(val, __shfl_down(val, offset, 32));
+  
+    		               ^
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+  
+    		val = min(val, __shfl_down(val, offset, 32));
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+    		               ^
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val += __shfl_down(val, offset);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+    		val = max(val, __shfl_down(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+    		val = min(val, __shfl_down(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val += __shfl_down(val, offset);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+    		val = max(val, __shfl_down(val, offset, 32));
+    			entries[12], entries[13], entries[14], entries[15]);
+    		               ^
+    			^
+  
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+    		val = min(val, __shfl_down(val, offset, 32));
+  
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+    			entries[12], entries[13], entries[14], entries[15]);
+    			^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val += __shfl_down(val, offset);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+    		val = max(val, __shfl_down(val, offset, 32));
+    		               ^
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+    		val = min(val, __shfl_down(val, offset, 32));
+    		               ^
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+    			entries[12], entries[13], entries[14], entries[15]);
+    			^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+    		val += __shfl_down(val, offset);
+    		       ^
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+    		val = max(val, __shfl_down(val, offset, 32));
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+    		val = min(val, __shfl_down(val, offset, 32));
+    		               ^
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(27): error : identifier "__shfl_down" is undefined
+  
+    		val += __shfl_down(val, offset);
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+    		       ^
+  
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(33): error : identifier "__shfl_down" is undefined
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_down(val, offset, 32));
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+    		               ^
+  
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(40): error : identifier "__shfl_down" is undefined
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_down(val, offset, 32));
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+    		               ^
+  
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(48): error : identifier "__shfl_xor" is undefined
+    		val += __shfl_xor(val, offset, 32);
+    		       ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(55): error : identifier "__shfl_xor" is undefined
+    		val = max(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cudaUtil.h(62): error : identifier "__shfl_xor" is undefined
+    		val = min(val, __shfl_xor(val, offset, 32));
+    		               ^
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+    			entries[12], entries[13], entries[14], entries[15]);
+    			^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+./Source/SiftGPU/cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+    			entries[12], entries[13], entries[14], entries[15]);
+    			^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:\BundleFusion\FriedLiver\Source\SiftGPU\cuda_SimpleMatrixUtil.h(1203): warning #225-D: the format string ends before this argument
+    			entries[12], entries[13], entries[14], entries[15]);
+    			^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDASceneRepChunkGrid.cu".
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  CUDASceneRepChunkGrid.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASceneRepChunkGrid.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDASceneRepChunkGrid.cu"”已退出，返回代码为 1。
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDAHistogramHashSDF.cu".
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CameraUtil.cu".
+  CUDAHistogramHashSDF.cu
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDAMarchingCubesSDF.cu".
+  CameraUtil.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAHistogramHashSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAHistogramHashSDF.cu"”已退出，返回代码为 1。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CameraUtil.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CameraUtil.cu"”已退出，返回代码为 1。
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDAConstant.cu".
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/DepthSensing/CUDAImageHelper.cu".
+  CUDAMarchingCubesSDF.cu
+  6 errors detected in the compilation of "D:/BundleFusion/FriedLiver/Source/SiftGPU/CUDASiftConstant.cu".
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAMarchingCubesSDF.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAMarchingCubesSDF.cu"”已退出，返回代码为 1。
+  CUDAConstant.cu
+  CUDAImageHelper.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAConstant.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAConstant.cu"”已退出，返回代码为 1。
+  CUDASiftConstant.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDAImageHelper.cu.obj "D:\BundleFusion\FriedLiver\Source\DepthSensing\CUDAImageHelper.cu"”已退出，返回代码为 1。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.6.targets(799,9): error MSB3721: 命令“"D:\cuda\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu -rdc=true  -IInclude\cutil\inc -ID:\BundleFusion\FriedLiver -ISource\DXUT\Optional -ISource\DXUT\Core -IInclude\Uplink -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\include" -I"C:\Program Files (x86)\Intel RealSense SDK 2.0\third-party\\" -ID:\cuda\include -I"D:\intelrealsense\vcpkg\installed\x64-windows\include" -ID:\cuda\include     --keep-dir FriedLiver\x64\Release -use_fast_math -maxrregcount=62   --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_WINDOWS -DD3DXFX_LARGEADDRESS_HANDLE -D_CRT_SECURE_NO_WARNINGS -DNOMINMAX -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Ox /FS   /MT " -Xcompiler "/FdFriedLiver\x64\Release\vc143.pdb" -o D:\BundleFusion\FriedLiver\FriedLiver\x64\Release\CUDASiftConstant.cu.obj "D:\BundleFusion\FriedLiver\Source\SiftGPU\CUDASiftConstant.cu"”已退出，返回代码为 1。
+  ScanCS.cu
+  tmpxft_0000b604_00000000-7_ScanCS.cudafe1.cpp

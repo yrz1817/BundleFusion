@@ -1,0 +1,4 @@
+valid = true
+heapFreeCount = 97296
+numValidOptTransforms = 2604
+numTransforms = 2604
