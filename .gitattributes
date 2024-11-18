@@ -1,0 +1,8 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.ext filter=lfs diff=lfs merge=lfs -text
+# 忽略 .ipch 文件
+*.ipch
+# 忽略 .sdf 文件
+*.sdf
+*.db
