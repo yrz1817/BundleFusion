@@ -12,3 +12,5 @@
 2、修改cuda版本,如果cuda不是10.2版本，可以打开BundleFusion-master\FriedLiver\FriedLiver.vcxproj 文件，把CUDA 10.2.targets部分修改为当前CUDA版本<br>
 ![image](img/修改cuda1.png)
 ![image](img/修改cuda2.jpg)
+## 三、实时三维重建<br>
+编译运行代码，修改BuddleFusion\FriedLiver\zParametersDefault.txt文件，
