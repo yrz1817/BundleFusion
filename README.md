@@ -33,4 +33,9 @@
 ![image](img/窗口失去追踪.png)<br>
 ## 四、离线三维重建
 ### 1、数据采集
-打开项目中的“拍摄脚本2.py”文件，修改保存文件的路径（空文件夹），连接相机，运行代码，按c开始采集深度图像信息和RGB图像信息，按q退出,将项目中的info.txt文件复制到图像流所在的文件夹中，并将info.txt中的m_frames.size 按照实际采集的frame数量进行设置<br>
+打开项目中的“拍摄脚本2.py”文件，修改保存文件的路径（空文件夹），连接相机，运行代码，按c开始采集深度图像信息和RGB图像信息，按q退出,将BundleFusion\路径下的info.txt文件复制到图像流所在的文件夹中，并将info.txt中的m_frames.size 按照实际采集的frame数量进行设置<br>
+此时的数据还是图片流，但离线重建的源数据是.sens文件，而本项目在实时重建的过程中其实完成了对.sens的封装，只需提取出其中的实现.sens封装的部分。所以拷贝一份本项目代码做修改，用于专门用于.sens文件，称为项目2，将项目2的BundleFusion\FriedLiver\Source中的Friedliver.cpp文件替换成BundleFusion\路径下的Friedliver.cpp文件，再将BundleFusionexternal\mLib\include\ext-depthcamera中的sensordata.h文件替换成BundleFusion\路径下的sensordata.h文件,打开替换后的Friedliver.cpp文件，修改“sd.loadFromImages("D:/BundleFusion2/sens/output", "frame-", "jpg")；”中的路径为图像流所在的文件夹，修改”sd.saveToFile("D:/BundleFusion/BuddleFusion-master/FriedLiver/x64/data/test2.sens");”的路径为拟保存.sens文件的实际路径。随后运行项目2，即可将数据流封装为 .sens 格式。提示“done”即为封装成功。至此，项目2的任务已经完全结束了，后面的工作再次围绕原项目展开<br>
+### 2、离线重建
+将数据来源设置成离线数据，即确保zParametersDefault.txt中s_sensorIdx = 8;<br>
+将zParametersDefault.txt中第58行的路径改为上面保存.sens文件的实际路径<br>
+运行代码，即可完成离线重建，离线重建的过程中也会有窗口提示重建的过程，重建完成后，点云会保存至BundleFusionFriedLiver\x64\data路径下
