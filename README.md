@@ -2,7 +2,7 @@
 
 ## 一、环境配置<br>
 >操作系统：win11 x64<br>
->集成平台：Visual Studio 2013<br>
+>集成平台：Visual Studio 2013（尚未尝试其他版本是否可行）<br>
 >计算架构：cuda10.2<br>
 >开发工具：DXSDK_Jun10<br>
 >深度相机：Intel RealSense D435<br>
@@ -13,4 +13,4 @@
 ![image](img/修改cuda1.png)
 ![image](img/修改cuda2.jpg)
 ## 三、实时三维重建<br>
-编译运行代码，修改BuddleFusion\FriedLiver\zParametersDefault.txt文件，
+编译代码，会在BundleFusion\FriedLiver\x64\Release目录下生成Friedliver.exe文件，可以直接点击运行，也可以在vs2013中点击“开始执行”来运行，但运行前要修改对应目录下的zParametersBundlingDefault.txt 和 zParametersDefault.txt文件，前者在BundleFusion\FriedLiver\x64\Release目录下，后者在BundleFusion\FriedLiver目录下，主要关注的点有：
