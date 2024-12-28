@@ -21,9 +21,13 @@
 运行后会生成一个窗口，可以看到实时重建效果，默认不显示色彩:<br>
 ![image](img/窗口.png)<br>
 按tab键可以查看可以执行的功能，比如按“2”可以查看实时重建的彩色效果，按“3”是查看RGB图像，按“4”是查看深度图像，按“9”是保存重建的点云，也可直接按ctrl+9保存点云,点云会保存在BuddleFusion\FriedLiver\scans目录下：<br>
-查看窗口功能![image](img/窗口功能.png)<br>
-查看彩色重建效果![image](img/彩色重建.png)<br>
-查看RGB图像流![image](img/RGB.png)<br>
-查看深度图像流![image](img/深度图像.png)<br>
+查看窗口功能<br>
+![image](img/窗口功能.png)<br>
+查看彩色重建效果<br>
+![image](img/彩色重建.png)<br>
+查看RGB图像流<br>
+![image](img/RGB.png)<br>
+查看深度图像流<br>
+![image](img/深度图像.png)<br>
 可以移动摄像头来不断更新重建点云，正常跟踪的时候窗口是黄色的，丧失跟踪后窗口会变成灰色，这时需要回到之前正常跟踪的位置让窗口重新变成黄色<br>
 ![image](img/窗口失去追踪.png)<br>
