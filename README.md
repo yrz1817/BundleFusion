@@ -20,7 +20,7 @@
 ![image](img/设置最多图像数量.jpg)<br>
 运行后会生成一个窗口，可以看到实时重建效果，默认不显示色彩:<br>
 ![image](img/窗口.png)<br>
-按tab键可以查看可以执行的功能，比如按“2”可以查看实时重建的彩色效果，按“3”是查看RGB图像，按“4”是查看深度图像，按“9”是保存重建的点云，也可直接按ctrl+9保存点云,点云会保存在BuddleFusion\FriedLiver\scans目录下：<br>
+按tab键可以查看可以执行的功能，比如按“2”可以查看实时重建的彩色效果，按“3”是查看RGB图像，按“4”是查看深度图像，按“9”是保存重建的点云，也可直接按ctrl+9保存点云,点云会保存在BundleFusion\FriedLiver\x64\Release\scans或者BuddleFusion\FriedLiver\scans目录下：<br>
 查看窗口功能<br>
 ![image](img/窗口功能.png)<br>
 查看彩色重建效果<br>
